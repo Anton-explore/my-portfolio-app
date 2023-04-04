@@ -25,6 +25,7 @@ export const StyledWrapper = styled.div<{ isInline: boolean, facade: boolean }>`
         }
     }
     h2 {
+        text-align: center;
         font-size: ${({ isInline }) => (isInline ? props => props.theme.fontSizes.medium : props => props.theme.fontSizes.large)};
         font-weight: ${({isInline }) => (isInline ? 'normal': 'bold')};
     }
@@ -59,7 +60,7 @@ export const StyledImgDiv = styled.div<{ isInline: boolean, facade: boolean }>`
         object-fit: cover;
     }
     @media (max-width: 1070px) {
-        width: ${({isInline }) => (isInline ? '50px': '12vw')};
+        width: ${({isInline }) => (isInline ? '50px': '70px')};
         height: auto;
         ${({ facade }) =>
         facade &&

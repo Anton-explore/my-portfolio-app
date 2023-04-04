@@ -16,7 +16,7 @@ export const MenuContainer = styled.div<{ isExpanded: boolean }>`
   justify-content: space-between;
   background-color: ${props => props.theme.colors.oxford};
   width: calc(100% - 40px);
-  height: 100vh;
+  min-height: 100vh;
   text-align: center;
   position: sticky;
   top: 0;
