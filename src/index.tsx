@@ -26,7 +26,7 @@ root.render(
       <PersistGate loading={null} persistor={persistor}>
         <ThemeProvider theme={theme}>
           <GlobalStyles/>
-          <BrowserRouter>
+          <BrowserRouter basename="/my-portfolio-app/">
             <App />
           </BrowserRouter>
         </ThemeProvider>
