@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# My Portfolio App
+
+This app was using for presentation of my portfolio.
+For creating this app I used: HTML5, CSS3, Typescript, React, Redux.
+Mock server created with Mirage.js (https://miragejs.com).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -18,6 +22,10 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm test:coverage`
+
+Launches the test runner with test coverage status
 
 ### `npm run build`
 
