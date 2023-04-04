@@ -1,6 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
+  "homepage": "https://anton-explore.github.io/my-portfolio-app/",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.16.0",
@@ -79,6 +80,8 @@
     }
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -106,6 +109,7 @@
   "devDependencies": {
     "@types/node": "^18.15.3",
     "formik": "^2.2.9",
+    "gh-pages": "^5.0.0",
     "miragejs": "^0.1.47"
   }
 }
