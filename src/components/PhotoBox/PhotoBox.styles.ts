@@ -55,7 +55,7 @@ export const StyledImgDiv = styled.div<{ isInline: boolean, facade: boolean }>`
             height: 300px;
         `}
     img {
-        width: auto;
+        width: 130%;
         height: 130%;
         object-fit: cover;
     }
