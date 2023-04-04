@@ -7,6 +7,9 @@ export const StyledPanel = styled.header<{ isExpanded: boolean }>`
   position: relative;
   display: flex;
   transition: all 0.1s ease-in;
+  @media (max-width: 1070px) {
+    width: ${({ isExpanded }) => (isExpanded ? '120px' : '40px')};
+  }
 `
 
 export const MenuContainer = styled.div<{ isExpanded: boolean }>`
@@ -22,6 +25,9 @@ export const MenuContainer = styled.div<{ isExpanded: boolean }>`
   top: 0;
   left: 0;
   transition: all 0.3s ease-in;
+  @media (max-width: 1070px) {
+    width: 80px;
+  }
 `;
 
 export const Toggle = styled.div`
